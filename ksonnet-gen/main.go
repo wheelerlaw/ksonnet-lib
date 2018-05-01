@@ -10,8 +10,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/ksonnet/ksonnet-lib/ksonnet-gen/ksonnet"
-	"github.com/ksonnet/ksonnet-lib/ksonnet-gen/kubespec"
+	//"github.com/ksonnet/ksonnet-lib/ksonnet-gen/ksonnet"
+	"./kubespec"
+	//"github.com/ksonnet/ksonnet-lib/ksonnet-gen/kubespec"
+	"./ksonnet"
 )
 
 var usage = "Usage: ksonnet-gen [path to k8s OpenAPI swagger.json] [output dir]"

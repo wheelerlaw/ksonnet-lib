@@ -13,7 +13,8 @@ import (
 	"log"
 	"strings"
 
-	"github.com/ksonnet/ksonnet-lib/ksonnet-gen/kubespec"
+	//"github.com/ksonnet/ksonnet-lib/ksonnet-gen/kubespec"
+	"../kubespec"
 )
 
 // KSource returns the source of `k.libsonnet` for a specific version

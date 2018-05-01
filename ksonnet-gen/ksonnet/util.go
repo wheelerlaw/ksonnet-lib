@@ -1,7 +1,7 @@
 package ksonnet
 
 import (
-	"github.com/ksonnet/ksonnet-lib/ksonnet-gen/kubespec"
+	"../kubespec"
 )
 
 const constructorName = "new"

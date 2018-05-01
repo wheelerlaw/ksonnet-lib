@@ -9,8 +9,10 @@ import (
 	"log"
 	"strings"
 
-	"github.com/ksonnet/ksonnet-lib/ksonnet-gen/kubespec"
-	"github.com/ksonnet/ksonnet-lib/ksonnet-gen/kubeversion"
+	//"github.com/ksonnet/ksonnet-lib/ksonnet-gen/kubespec"
+	//"github.com/ksonnet/ksonnet-lib/ksonnet-gen/kubeversion"
+	"../kubespec"
+	"../kubeversion"
 )
 
 // FieldKey represents the literal text of a key for some JSON object

@@ -21,6 +21,8 @@ var (
 		regexp.MustCompile(`io\.k8s\.(?P<codebase>\S+)\.pkg\.(?P<packageType>version)\.(?P<kind>\S+)`),
 		// Runtime packageType
 		regexp.MustCompile(`io\.k8s\.(?P<codebase>\S+)\.pkg\.(?P<packageType>runtime)\.(?P<kind>\S+)`),
+		// OpenShift packages
+		regexp.MustCompile(`com\.github\.(?P<codebase>openshift)\.api\.(?P<group>\S+)\.(?P<version>\S+)\.(?P<kind>\S+)`),
 	}
 )
 

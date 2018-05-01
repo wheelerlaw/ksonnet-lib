@@ -8,9 +8,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ksonnet/ksonnet-lib/ksonnet-gen/jsonnet"
-	"github.com/ksonnet/ksonnet-lib/ksonnet-gen/kubespec"
-	"github.com/ksonnet/ksonnet-lib/ksonnet-gen/kubeversion"
+	//"github.com/ksonnet/ksonnet-lib/ksonnet-gen/jsonnet"
+	//"github.com/ksonnet/ksonnet-lib/ksonnet-gen/kubespec"
+	//"github.com/ksonnet/ksonnet-lib/ksonnet-gen/kubeversion"
+	"../kubespec"
+	"../jsonnet"
+	"../kubeversion"
 )
 
 // Emit takes a swagger API specification, and returns the text of
